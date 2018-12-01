@@ -1,0 +1,20 @@
+.favicon{
+    height: 60px;
+    width: 90px;
+}
+.header_area .navbar .nav .nav-item.active .nav-link {
+    color: #ed1c24;
+}
+.header_area .navbar .nav .nav-item:hover .nav-link, .header_area .navbar .nav .nav-item.active .nav-link {
+    color: #ed1c24;
+}
+.header_area .navbar .nav .nav-item.submenu ul .nav-item:hover .nav-link {
+    background-image: -moz-linear-gradient(0deg, #ed1c24 0%, #2C2172 100%);
+    background-image: -webkit-linear-gradient(0deg, #ed1c24 0%, #2C2172 100%);
+    background-image: -ms-linear-gradient(0deg, #ed1c24 0%, #2C2172 100%);
+    color: #fff;
+}
+.imgresize{
+    height: 300px;
+    width: 260px;
+}
