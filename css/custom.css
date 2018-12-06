@@ -16,5 +16,11 @@
 }
 .imgresize{
     height: 300px;
-    width: 260px;
+    width: 250px;
 }
+h3{
+    color:white;
+}
+.gradient_btn{
+    width: 160px;
+} 

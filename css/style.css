@@ -2723,7 +2723,9 @@ h6 {
 /* Start About Us Area css
 ============================================================================================ */
 .about_us_area {
-  position: relative; }
+  position: relative; 
+  margin-bottom: 5%;
+}
 
 .about_content {
   position: relative; }
