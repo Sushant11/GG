@@ -18,9 +18,12 @@
     height: 300px;
     width: 250px;
 }
-h3{
+h4{
     color:white;
 }
 .gradient_btn{
     width: 160px;
 } 
+.manymore a{
+    color: #222222;
+}
