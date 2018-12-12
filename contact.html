@@ -50,7 +50,7 @@
       /* Small devices (portrait tablets and large phones, 600px and up) */
       @media only screen and (min-width: 600px) {
         iframe {
-          width: 700px;
+          width: 600px;
         }
       }
 
@@ -64,14 +64,14 @@
       /* Large devices (laptops/desktops, 992px and up) */
       @media only screen and (min-width: 992px) {
         iframe {
-          width: 930px;
+          width: 700px;
         }
       }
 
       /* Extra large devices (large laptops and desktops, 1200px and up) */
       @media only screen and (min-width: 1200px) {
         iframe {
-          width: 1100px;
+          width: 800px;
         }
       }
     </style>
@@ -181,92 +181,95 @@
     <!-- ================Contact Area ================= -->
     <section class="contact_area section_gap">
       <div class="container">
-        <div id="mapBox" class="mapBox">
-          <!-- <div id="map"></div> -->
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1766.302658218059!2d85.30297555821235!3d27.698590995698957!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb19df89974d75%3A0x34eeb02c53b02553!2sGaming+Garage+Nepal!5e0!3m2!1sen!2snp!4v1544366550961"
-            width="1110"
-            height="450"
-            frameborder="0"
-            style="border:0"
-            allowfullscreen
-          ></iframe>
-        </div>
-        <div class="row">
-          <div class="col-lg-3">
-            <div class="contact_info">
-              <div class="info_item">
-                <i class="lnr lnr-home"></i>
-                <h6>Kathmandu, Nepal</h6>
-                <p>Wonde Height, Teku</p>
-              </div>
-              <div class="info_item">
-                <i class="lnr lnr-phone-handset"></i>
-                <h6><a href="#">+977 984-9754272/981-8716082</a></h6>
-                <p>Everyday 9am to 9 pm</p>
-              </div>
-              <div class="info_item">
-                <i class="lnr lnr-envelope"></i>
-                <h6><a href="#">gaminggarage25@gmail.com</a></h6>
-                <p>Send us your query anytime!</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-9">
-            <form
-              class="row contact_form"
-              action="contact_process.php"
-              method="post"
-              id="contactForm"
-              novalidate="novalidate"
-            >
-              <div class="col-md-6">
-                <div class="form-group">
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="name"
-                    name="name"
-                    placeholder="Enter your name"
-                  />
-                </div>
-                <div class="form-group">
-                  <input
-                    type="email"
-                    class="form-control"
-                    id="email"
-                    name="email"
-                    placeholder="Enter email address"
-                  />
-                </div>
-                <div class="form-group">
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="subject"
-                    name="subject"
-                    placeholder="Enter Subject"
-                  />
+          <div class="row">
+              <div class="col-lg-3">
+                <div class="contact_info">
+                  <div class="info_item">
+                    <i class="lnr lnr-home"></i>
+                    <h6>Kathmandu, Nepal</h6>
+                    <p>Wonde Height, Teku (Next to Wonde Buildling)</p>
+                  </div>
+                  <div class="info_item">
+                    <i class="lnr lnr-phone-handset"></i>
+                    <h6><a href="#">+977 984-9754272/981-8716082</a></h6>
+                    <p>Everyday 9am to 9 pm</p>
+                  </div>
+                  <div class="info_item">
+                    <i class="lnr lnr-envelope"></i>
+                    <h6><a href="#">gaminggarage25@gmail.com</a></h6>
+                    <p>Send us your query anytime!</p>
+                  </div>
                 </div>
               </div>
-              <div class="col-md-6">
-                <div class="form-group">
-                  <textarea
-                    class="form-control"
-                    name="message"
-                    id="message"
-                    rows="1"
-                    placeholder="Enter Message"
-                  ></textarea>
-                </div>
+              <div class="col-lg-9">
+                  <div id="mapBox" class="mapBox">
+                      <!-- <div id="map"></div> -->
+                      <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1766.302658218059!2d85.30297555821235!3d27.698590995698957!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb19df89974d75%3A0x34eeb02c53b02553!2sGaming+Garage+Nepal!5e0!3m2!1sen!2snp!4v1544366550961"
+                        width="1110"
+                        height="450"
+                        frameborder="0"
+                        style="border:0"
+                        allowfullscreen
+                      ></iframe>
+                    </div>
+                    
               </div>
-              <div class="col-md-12 text-right">
-                <button type="submit" value="submit" class="primary_btn">
-                  Send Message
-                </button>
-              </div>
-            </form>
-          </div>
+              <!-- <div class="col-lg-9">
+                <form
+                  class="row contact_form"
+                  action="contact_process.php"
+                  method="post"
+                  id="contactForm"
+                  novalidate="novalidate"
+                >
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="name"
+                        name="name"
+                        placeholder="Enter your name"
+                      />
+                    </div>
+                    <div class="form-group">
+                      <input
+                        type="email"
+                        class="form-control"
+                        id="email"
+                        name="email"
+                        placeholder="Enter email address"
+                      />
+                    </div>
+                    <div class="form-group">
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="subject"
+                        name="subject"
+                        placeholder="Enter Subject"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <textarea
+                        class="form-control"
+                        name="message"
+                        id="message"
+                        rows="1"
+                        placeholder="Enter Message"
+                      ></textarea>
+                    </div>
+                  </div>
+                  <div class="col-md-12 text-right">
+                    <button type="submit" value="submit" class="primary_btn">
+                      Send Message
+                    </button>
+                  </div>
+                </form>
+              </div> -->
         </div>
       </div>
     </section>
