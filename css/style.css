@@ -502,7 +502,7 @@ img {
     width: 100%;
     height: 1vh; }
     .home_banner_area .banner_inner .home_left_img {
-      padding-top: 230px;
+      padding-top: 150px;
       padding-bottom: 230px; }
     .home_banner_area .banner_inner .col-lg-6 {
       vertical-align: middle;
@@ -1764,7 +1764,7 @@ body.blog_page {
   .element-wrap {
     margin-top: 30px; } }
 b, sup, sub, u, del {
-  color: #f8b600; }
+  color: #2C2172; }
 
 h1 {
   font-size: 36px; }

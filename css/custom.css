@@ -74,3 +74,42 @@ h4{
 .card{
     margin: 10px;
 }
+.card:hover{
+    box-shadow: 0px 2px 5px 0px #2C2172;
+}
+.icon-bars {
+    position: fixed;
+    top: 90%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index: 2;
+  }
+.icon-bars a {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+  }
+  
+  .icon-bars a:hover {
+    background-color: #2C2172;
+  }
+  
+  .facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .instagram {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
