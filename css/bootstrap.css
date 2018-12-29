@@ -4105,7 +4105,8 @@ input[type=submit].btn-block {
 }
 
 .nav-tabs .nav-item {
-    margin-bottom: -1px
+    margin-bottom: -1px;
+    margin: auto;
 }
 
 .nav-tabs .nav-link {
@@ -4619,7 +4620,8 @@ input[type=submit].btn-block {
 .card-body {
     -ms-flex: 1 1 auto;
     flex: 1 1 auto;
-    padding: 1.25rem
+    padding: 1.25rem;
+    text-align: center;
 }
 
 .card-title {
@@ -4733,8 +4735,8 @@ input[type=submit].btn-block {
         -ms-flex-direction: column;
         flex-direction: column;
         margin-right: 15px;
-        margin-bottom: 0;
-        margin-left: 15px
+        margin-bottom: 10px;
+        margin-left: 15px;
     }
 }
 
