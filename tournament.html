@@ -10,7 +10,8 @@
         <link rel="stylesheet" href="css/bootstrap.css">
         <link rel="stylesheet" href="vendors/linericon/style.css">
         <link rel="stylesheet" href="css/font-awesome.min.css">
-        <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
+		<link rel="stylesheet" href="vendors\OwlCarousel2-2.3.4\dist\assets\owl.carousel.css" />
+		<link rel="stylesheet" href="vendors\OwlCarousel2-2.3.4\dist\assets\owl.theme.default.min.css" />
 		<link rel="stylesheet" href="css/magnific-popup.css">
         <link rel="stylesheet" href="vendors/nice-select/css/nice-select.css">
 		<link rel="stylesheet" href="vendors/animate-css/animate.css">
@@ -43,22 +44,13 @@
 							<ul class="nav navbar-nav menu_nav justify-content-center">
 								<li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
 								<li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a>
-								<li class="nav-item active"><a class="nav-link" href="tournament.html">Tournaments</a>
-									<li class="nav-item submenu dropdown">
-									<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-									 aria-expanded="false">Pages</a>
-									<ul class="dropdown-menu">
-										<li class="nav-item"><a class="nav-link" href="price.html">Pricing</a>
-										<li class="nav-item"><a class="nav-link" href="games.html">Games</a>
-										<li class="nav-item"><a class="nav-link" href="events.html">Events</a>
-									</ul>
-								</li>							
+								<li class="nav-item active"><a class="nav-link" href="tournament.html">Tournaments</a>					
 								<li class="nav-item"><a class="nav-link" href="about-us.html">About</a></li>
 	
 								<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
 							</ul>
 							<ul class="nav navbar-nav navbar-right">
-								<li class="nav-item"><a href="https://docs.google.com/forms/d/e/1FAIpQLSd_-H131fUfGmfjUwJ93WkV1NW13dMO0zmgya8BkaOPblpsNw/viewform?usp=sf_link" class="primary_btn">Register</a></li>
+								<li class="nav-item"><a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSd_-H131fUfGmfjUwJ93WkV1NW13dMO0zmgya8BkaOPblpsNw/viewform?usp=sf_link" class="primary_btn">Register</a></li>
 							</ul>
 						</div>
 					</div>
@@ -85,18 +77,114 @@
 		<!--================End Home Banner Area =================-->
 	
 		<!--================ Start Tournament Area =================-->
-		<section class="gallery_area">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-12">
-						<div class="main_title">
-							<h2>Rules & Regulations</h2>
-							<h1>Rules & Regulations</h1>
+		<section class=" section_gap">
+				<div class="container">
+				  <div class="recent_update_inner">
+					<ul class="nav nav-tabs" id="myTab" role="tablist">
+					  <li class="nav-item">
+						<a
+						  class="nav-link active"
+						  id="home-tab"
+						  data-toggle="tab"
+						  href="#home"
+						  role="tab"
+						  aria-controls="home"
+						  aria-selected="true"
+						  style="color:#2a216d"
+						>
+						  Past Events
+						</a>
+					  </li>
+					  <li class="nav-item">
+						<a
+						  class="nav-link"
+						  id="profile-tab"
+						  data-toggle="tab"
+						  href="#profile"
+						  role="tab"
+						  aria-controls="profile"
+						  aria-selected="false"
+						  style="color:#2a216d"
+						>
+						  Upcoming Tournaments
+						</a>
+					  </li>
+					</ul>
+					<div class="tab-content" id="myTabContent">
+					  <div
+						class="tab-pane fade  show active"
+						id="home"
+						role="tabpanel"
+						aria-labelledby="home-tab"
+					  >
+						<div class="row recent_update_text">
+						  <div class="col-lg-12 col-md-12 col-sm-12">
+							<div
+							  class="section_content"
+							>
+							  <h6>events</h6>
+							  <div class="owl-carousel owl-theme">
+ 
+								<div class="item" style="color:white">
+									<h3>
+											FIFA 18 Tournament
+									</h3>
+									<p>
+											The Exciting 3 days tournament was held on the occasion
+											of FIFA World Cup 2018 where 256 participants all around
+											the country showed an amazing participation. The three
+											days event was conducted in the premises of Gaming
+											Garage Nepal where 27 players were welcomed from outside
+											the valley.
+									</p>
+								</div>
+								<div class="item" style="color:white">
+										<h3>
+												FIFA 18 Open Tournament
+										</h3>
+										<p>
+												The 2 days event was held on Bhrikutimandap Exhibition
+								  Hall where more the 5000 gamers and gaming enthusiast
+								  witnessed Nepal&#39;s first ever E-Sports exhibition.
+								  Gaming Garage Nepal was the only official coordinator in
+								  the event to look after in the sector of console game
+								  &quot;FIFA&quot;. More than 400 FIFA gamers were
+								  involved in this very first exhibition and show case
+								  their FIFA skills among each other.
+										</p>
+									</div>
+
+								  </div>
+							</div>
+						  </div>
 						</div>
+					  </div>
+					  <div
+						class="tab-pane fade"
+						id="profile"
+						role="tabpanel"
+						aria-labelledby="profile-tab"
+					  >
+						<div class="row recent_update_text">
+						  <div class="col-lg-12 col-md-12 col-sm-12">
+							<div class="section_content">
+							  <h6>Tournaments</h6>
+							  <h1>FIFA 19 Tournament</h1>
+							</div>
+						  </div>
+						</div>
+					  </div>
+					  <div
+						class="tab-pane fade"
+						id="contact"
+						role="tabpanel"
+						aria-labelledby="contact-tab"
+					  >
+					  </div>
 					</div>
+				  </div>
 				</div>
-			</div>
-		</section>
+			  </section>
 		<!--================ End Tournament Area =================-->
 	
 		<!--================Footer Area =================-->
@@ -183,8 +271,28 @@
 		<!--================End Footer Area =================-->
 	
 		<!-- Optional JavaScript -->
+
 		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-		<script src="js/jquery-3.2.1.min.js"></script>
+		<script src="vendors\OwlCarousel2-2.3.4\docs\assets\vendors\jquery.min.js"></script>
+		<script src="vendors\OwlCarousel2-2.3.4\dist\owl.carousel.js"></script>
+		<script>
+		 $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:1
+        }
+    }
+});
+		</script>
 		<script src="js/popper.js"></script>
 		<script src="js/bootstrap.min.js"></script>
 		<script src="js/stellar.js"></script>

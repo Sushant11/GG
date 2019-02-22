@@ -497,7 +497,11 @@ img {
   z-index: 1;
   background: url(../img/banner/home-banner.jpg) no-repeat center center;
   background-color: hsla(248, 55%, 29%, 0.5);
-  background-size: cover;    min-height: 100vh; }
+  background-size: cover;    min-height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
   .home_banner_area .banner_inner {
     width: 100%;
     height: 1vh; }
@@ -571,11 +575,16 @@ img {
   margin: auto; }
 
 .banner_area {
+  background: url(../img/banner/home-banner.jpg) no-repeat center center;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   position: relative;
   min-height: 430px;
   z-index: 1;
-  background: url(../img/banner/home-banner.jpg) no-repeat center center;
-  background-size: cover; }
+ 
+ }
   .banner_area .banner_inner {
     position: relative;
     overflow: hidden;
@@ -1450,7 +1459,7 @@ body.blog_page {
     font-weight: 600; }
   .contact_info .info_item h6 {
     font-size: 16px;
-    line-height: 24px;
+    line-height: 20px;
     color: "Roboto", sans-serif;
     font-weight: bold;
     margin-bottom: 0px;

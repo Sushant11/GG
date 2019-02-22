@@ -17,9 +17,10 @@
     <title>Gaming Garage</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="vendors\OwlCarousel2-2.3.4\dist\assets\owl.carousel.css" />
+    <link rel="stylesheet" href="vendors\OwlCarousel2-2.3.4\dist\assets\owl.theme.default.min.css" />
     <link rel="stylesheet" href="vendors/linericon/style.css" />
     <link rel="stylesheet" href="css/font-awesome.min.css" />
-    <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css" />
     <link rel="stylesheet" href="css/magnific-popup.css" />
     <link rel="stylesheet" href="vendors/nice-select/css/nice-select.css" />
     <link rel="stylesheet" href="vendors/animate-css/animate.css" />
@@ -80,28 +81,6 @@
                 <li class="nav-item">
                   <a class="nav-link" href="tournament.html">Tournaments</a>
                 </li>
-                <li class="nav-item submenu dropdown">
-                  <a
-                    href="#"
-                    class="nav-link dropdown-toggle"
-                    data-toggle="dropdown"
-                    role="button"
-                    aria-haspopup="true"
-                    aria-expanded="false"
-                    >Pages</a
-                  >
-                  <ul class="dropdown-menu">
-                    <li class="nav-item">
-                      <a class="nav-link" href="price.html">Pricing</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="games.html">Games</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="events.html">Events</a>
-                    </li>
-                  </ul>
-                </li>
                 <li class="nav-item">
                   <a class="nav-link" href="about-us.html">About</a>
                 </li>
@@ -113,7 +92,7 @@
               <ul class="nav navbar-nav navbar-right">
                 <li class="nav-item">
                   <a
-                    href="https://docs.google.com/forms/d/e/1FAIpQLSd_-H131fUfGmfjUwJ93WkV1NW13dMO0zmgya8BkaOPblpsNw/viewform?usp=sf_link"
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSd_-H131fUfGmfjUwJ93WkV1NW13dMO0zmgya8BkaOPblpsNw/viewform?usp=sf_link" target="_blank"
                     class="primary_btn"
                     >Register</a
                   >
@@ -150,7 +129,7 @@
                   <span style="color:#ed1c24">Event</span> Organizer
 				</h2>
 				<div class="d-flex align-items-center">
-					<a id="play-home-video" class="video-play-button" href="" target="_blank" rel="noopener">
+          <a id="play-home-video" class="video-play-button" href="https://www.youtube.com/watch?v=MUDhPQa1yBw" target="_blank">
 						<span></span>
 					</a>
 					<div class="watch_video text-uppercase">
@@ -176,15 +155,9 @@
               <h4>
                 Gaming Garage (GG) Nepal is a gaming station, which started
                 operations in Nepal in 2018. Gaming Garage Nepal is one of the
-                popular gaming station in Nepal. Gaming Garage Nepal strives to
-                facilitate gamers with a common gaming zone where everyone can
-                test their gaming skills and battle for the bragging rights.
-                Gamers can choose freely from the wide range of exclusive games
-                released worldwide. We believe gaming is a passion of an
-                individual, which gives him/her a chance to stay focused and
-                showcase his/her creativity while being outstanding in his/her
-                own right proving oneself a GAMER.
+                popular gaming station in Nepal. 
               </h4>
+              <a class="primary_btn" href="about-us.html">Learn More</a>
             </div>
           </div>
           <div class="col-lg-1"></div>
@@ -210,43 +183,97 @@
           </div>
         </div>
         <div class="row text-center">
-          <div class="col-lg-3 col-md-6 col-sm-6">
-            <div class="new_games_item">
-              <img src="img/fifa.jpg" alt="FIFA 19" class="imgresize" />
-              <div class="upcoming_title">
-                <h3><a href="games.html">FIFA 19</a></h3>
-              </div>
+            <div class="owl-carousel owl-theme">
+                <div class="item"><div class="new_games_item">
+                    <img src="img/fifa.jpg" alt="FIFA 19" class="imgresize" />
+                    <div class="upcoming_title">
+                      <h3><a href="games.html">FIFA 19</a></h3>
+                    </div>
+                  </div></div>
+                <div class="item"><div class="new_games_item">
+                    <img src="img/ufc.jpg" alt=" UFC3" class="imgresize">
+                    <div class="upcoming_title">
+                      <h3><a href="games.html">UFC 3</a></h3>
+                    </div>
+                  </div></div>
+                <div class="item"><div class="new_games_item">
+                    <img src="img/fortnite.jpg" alt="FORTNITE" class="imgresize">
+                    <div class="upcoming_title">
+                      <h3><a href="games.html">FORTNITE</a></h3>
+                    </div>
+                  </div></div>
+                <div class="item">
+                    <div class="new_games_item">
+                        <img src="img/mortal.jpg" alt="Mortal Kombat XL" class="imgresize">
+                        <div class="upcoming_title">
+                          <h3><a href="games.html">Mortal Kombat XL</a></h3>
+                        </div>
+                      </div>
+                </div>
+                <div class="item">
+                    <div class="new_games_item">
+                        <img src="img/wwe.jpg" alt="WWE" class="imgresize">
+                        <div class="upcoming_title">
+                          <h3><a href="games.html">WWE</a></h3>
+                        </div>
+                      </div>                </div>
+                <div class="item">
+                    <div class="new_games_item">
+                        <img src="img/cod.jpg" alt=" Call of Duty" class="imgresize">
+                        <div class="upcoming_title">
+                          <h3><a href="games.html">Call of Duty WWII</a></h3>
+                        </div>
+                      </div>
+                </div>
+                <div class="item">
+                    <div class="new_games_item">
+                        <img src="img/gta.jpg" alt="GTA V" class="imgresize">
+                        <div class="upcoming_title">
+                          <h3><a href="games.html">GTA V</a></h3>
+                        </div>
+                      </div>
+                </div>
+                <div class="item">
+                    <div class="new_games_item">
+                        <img src="img/stftr.jpg" alt="Street Fighter" class="imgresize">
+                        <div class="upcoming_title">
+                          <h3><a href="games.html">Street Fighter 5</a></h3>
+                        </div>
+                      </div>
+                </div>
+                <div class="item">
+                    <div class="new_games_item">
+                        <img src="img/spidey.jpg" alt=Spiderman" class="imgresize">
+                        <div class="upcoming_title">
+                          <h3><a href="games.html">Spiderman</a></h3>
+                        </div>
+                      </div>
+                </div>
+                <div class="item">
+                    <div class="new_games_item">
+                        <img src="img/rdr.jpg" alt="Red Dead Redemption II" class="imgresize">
+                        <div class="upcoming_title">
+                          <h3><a href="games.html">Red Dead Redemption II</a></h3>
+                        </div>
+                      </div>
+                </div>
+                <div class="item">
+                    <div class="new_games_item">
+                        <img src="img/uncharted.jpg" alt="Uncharted 4" class="imgresize">
+                        <div class="upcoming_title">
+                          <h3><a href="games.html">Uncharted 4</a></h3>
+                        </div>
+                      </div>
+                </div>
+                <div class="item">
+                    <div class="new_games_item">
+                        <img src="img/gow.jpg" alt="God Of War" class="imgresize">
+                        <div class="upcoming_title">
+                          <h3><a href="games.html">God Of War</a></h3>
+                        </div>
+                      </div>
+                </div>
             </div>
-          </div>
-          <div class="col-lg-3 col-md-6 col-sm-6">
-            <div class="new_games_item">
-              <img src="img/ufc.jpg" alt=" UFC3" class="imgresize" />
-              <div class="upcoming_title">
-                <h3><a href="games.html">UFC 3</a></h3>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 col-sm-6">
-            <div class="new_games_item">
-              <img src="img/fortnite.jpg" alt="FORTNITE" class="imgresize" />
-              <div class="upcoming_title">
-                <h3><a href="games.html">FORTNITE</a></h3>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 col-sm-6">
-            <div class="new_games_item">
-              <img src="img/mortal.jpg" alt="BATTLEFIELD" class="imgresize" />
-              <div class="upcoming_title">
-                <h3><a href="games.html">Mortal Kombat XL</a></h3>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-12 manymore">
-            <h2><a href="games.html">And Many More...</a></h2>
-          </div>
         </div>
       </div>
     </section>
@@ -303,9 +330,52 @@
                 <div class="col-lg-6">
                   <div class="section_content">
                     <h6>Events</h6>
-                    <h1>FIFA 18 Tournament</h1>
-                    <h1>FIFA 18 Open Tournament</h1>
-                    <a class="primary_btn" href="events.html">Learn More</a>
+                    <a
+								class="primary_btn event eventright"
+								data-toggle="collapse"
+								data-target="#collapse1"
+								aria-expanded="false"
+								aria-controls="collapseExample"
+								><h2 style="color:white;">FIFA 18 Tournament</h2></a
+							  >
+							  <div class="collapse eventright" id="collapse1">
+								<div
+								  class="card card-body"
+								  style="background-color:#2a216d;color:white;"
+								>
+								  The Exciting 3 days tournament was held on the occasion
+								  of FIFA World Cup 2018 where 256 participants all around
+								  the country showed an amazing participation. The three
+								  days event was conducted in the premises of Gaming
+								  Garage Nepal where 27 players were welcomed from outside
+								  the valley.
+								</div>
+							  </div>
+							  <a
+								class="primary_btn event eventright"
+								data-toggle="collapse"
+								data-target="#collapse2"
+								aria-expanded="false"
+								aria-controls="collapseExample"
+								style="margin-top:10px;"
+								><h2 style="color:white;">FIFA 18 Open Tournament</h2></a
+							  >
+							  <div class="collapse eventright" id="collapse2">
+								<div
+								  class="card card-body"
+								  style="background-color:#2a216d;color:white;"
+								>
+								  The 2 days event was held on Bhrikutimandap Exhibition
+								  Hall where more the 5000 gamers and gaming enthusiast
+								  witnessed Nepal&#39;s first ever E-Sports exhibition.
+								  Gaming Garage Nepal was the only official coordinator in
+								  the event to look after in the sector of console game
+								  &quot;FIFA&quot;. More than 400 FIFA gamers were
+								  involved in this very first exhibition and show case
+								  their FIFA skills among each other.
+								</div>
+							  </div>
+                    <a class="primary_btn" href="events.html" style="margin-top:15px;">Learn More</a>
                   </div>
                 </div>
               </div>
@@ -377,8 +447,9 @@
           <div class="col-lg-12">
             <div class="row">
               <div class="col-lg-4 col-md-4 col-sm-6">
+                <a class="pop-up-image" href="img/gallery/2.jpg">
                 <div class="single-gallery">
-                  <div class="overlay"></div>
+                  <div class="overlay" ></div>
                   <img
                     class="img-fluid w-100"
                     src="img/gallery/a2.jpg"
@@ -390,8 +461,10 @@
                     </a>
                   </div>
                 </div>
+              </a>
               </div>
               <div class="col-lg-4 col-md-4 col-sm-6">
+                  <a class="pop-up-image" href="img/gallery/1.jpg">
                 <div class="single-gallery">
                   <div class="overlay"></div>
                   <img
@@ -405,8 +478,10 @@
                     </a>
                   </div>
                 </div>
+              </a>
               </div>
               <div class="col-lg-4 col-md-4 col-sm-6">
+                  <a class="pop-up-image" href="img/gallery/8.jpg">
                 <div class="single-gallery">
                   <div class="overlay"></div>
                   <img
@@ -420,6 +495,7 @@
                     </a>
                   </div>
                 </div>
+                </a>
               </div>
               <!-- <div class="col-lg-6">
 							<div class="single-gallery">
@@ -469,7 +545,7 @@
     <!--========== Start Testimonials Area ==================-->
     <section class="testimonials_area section_gap">
       <div class="container">
-        <div class="testi_slider owl-carousel">
+        <div id="owl-demo" class="testi_slider owl-carousel owl-theme" >
           <div class="testi_item">
             <h4>Steve Bornstein, former CEO of ESPN</h4>
             <div class="wow fadeIn" data-wow-duration="2s">
@@ -716,8 +792,28 @@
     <!--================End Footer Area =================-->
 
     <!-- Optional JavaScript -->
+   
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="vendors\OwlCarousel2-2.3.4\docs\assets\vendors\jquery.min.js"></script>
+    <script src="vendors\OwlCarousel2-2.3.4\dist\owl.carousel.js"></script>
+    <script>
+   $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:4
+        }
+    }
+});
+    </script>
     <script src="js/popper.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/stellar.js"></script>
@@ -725,7 +821,6 @@
     <script src="vendors/nice-select/js/jquery.nice-select.min.js"></script>
     <script src="vendors/isotope/imagesloaded.pkgd.min.js"></script>
     <script src="vendors/isotope/isotope-min.js"></script>
-    <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
     <script src="js/jquery.ajaxchimp.min.js"></script>
     <script src="vendors/counter-up/jquery.waypoints.min.js"></script>
     <script src="vendors/counter-up/jquery.counterup.min.js"></script>

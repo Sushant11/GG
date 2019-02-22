@@ -118,3 +118,38 @@ h4{
     color: white;
   }
   
+  .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #2C2172;
+}
+.owl-theme .owl-nav [class*=owl-]:hover {
+  background: none;
+  color: #2C2172;
+  font-size: 30px;
+  text-decoration: none;
+}
+.owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next, .owl-carousel button.owl-dot {
+  background: none;
+  border: none;
+  color:darkgoldenrod;
+  padding: 0 !important;
+  font-size: 30px;
+}
+#owl-demo{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.form-control:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #2C2172;
+  outline: 0;
+  box-shadow: 0 0 0 2px #2C2172;
+}
+textarea.form-control {
+  height: 100px;
+}
+.form-group {
+  margin-bottom: 5px;
+}
