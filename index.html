@@ -348,7 +348,8 @@
 								  the country showed an amazing participation. The three
 								  days event was conducted in the premises of Gaming
 								  Garage Nepal where 27 players were welcomed from outside
-								  the valley.
+                  the valley.
+                  Ashmit Thapa(KTM) defeated Sagar Pun(PKR) in a nail biting final in tie-breaker after they drew 5-5 in regular 90mins and 7-7 after 120 mins. Aviral Amatya and Aayush Hirachan were other 2 Semi-finalists.
 								</div>
 							  </div>
 							  <a
@@ -375,6 +376,22 @@
 								  their FIFA skills among each other.
 								</div>
 							  </div>
+							  <a
+								class="primary_btn event eventright"
+								data-toggle="collapse"
+								data-target="#collapse3"
+								aria-expanded="false"
+								aria-controls="collapseExample"
+								style="margin-top:10px;"
+								><h2 style="color:white;">FIFA 19 Championship</h2></a
+							  >
+							  <div class="collapse eventright" id="collapse3">
+								<div
+								  class="card card-body"
+								  style="background-color:#2a216d;color:white;"
+								>
+                The 3 days event was held on Civil Mall form 1st March to 3rd March 2019. More than 400 players participated in the championship to win the biggest cash prize in FIFA in the history of Nepal. Also, it was the first time where top 16 players were awarded with the cash prize. Nirbhaya Shrestha(KTM) won the Championship by defeating Saugat Gurung(PKR) in the final. 								</div>
+							  </div>
                     <a class="primary_btn" href="tournament.html" style="margin-top:15px;">Learn More</a>
                   </div>
                 </div>
@@ -399,8 +416,7 @@
                 <div class="col-lg-6">
                   <div class="section_content">
                     <h6>Tournaments</h6>
-                    <h1>FIFA 19 Tournament</h1>
-                    <a class="primary_btn" href="tournament.html">Learn More</a>
+                   Loading...
                   </div>
                 </div>
               </div>
@@ -545,7 +561,7 @@
     <!--========== Start Testimonials Area ==================-->
     <section class="testimonials_area section_gap">
       <div class="container">
-        <div id="owl-demo" class="testi_slider owl-carousel owl-theme" >
+        <div class="testi_slider owl-carousel demo owl-theme" >
           <div class="testi_item">
             <h4>Steve Bornstein, former CEO of ESPN</h4>
             <div class="wow fadeIn" data-wow-duration="2s">
@@ -787,6 +803,27 @@
     <script src="vendors\OwlCarousel2-2.3.4\docs\assets\vendors\jquery.min.js"></script>
     <script src="vendors\OwlCarousel2-2.3.4\dist\owl.carousel.js"></script>
     <script>
+        $('.demo').owlCarousel({
+         loop:true,
+         margin:10,
+         nav:true,
+         responsive:{
+             0:{
+                 items:1
+             },
+             600:{
+                 items:1
+             },
+             1000:{
+                 items:1
+             }
+         },
+         autoplay:true,
+         autoplayTimeout:8000,
+         autoplayHoverPause:true
+     });
+         </script>
+    <script>
    $('.owl-carousel').owlCarousel({
     loop:true,
     margin:10,
@@ -803,10 +840,11 @@
         }
     },
     autoplay:true,
-    autoplayTimeout:3000,
+    autoplayTimeout:4000,
     autoplayHoverPause:true
 });
     </script>
+   
     <script src="js/popper.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/stellar.js"></script>

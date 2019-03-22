@@ -153,3 +153,13 @@ textarea.form-control {
 .form-group {
   margin-bottom: 5px;
 }
+.galleryhead{
+  text-align: center;
+  color: #2C2172;
+}
+.galleryhead h1{
+  border-bottom: 2px solid;
+}
+.gallmargin{
+  margin-bottom: 5%;
+}
